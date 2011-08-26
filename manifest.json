@@ -1,0 +1,13 @@
+{
+  "name": "Last.fm to Spotify Bridge",
+  "version": "1.0",
+  "description": "Add Spotify links to Last.fm",
+ 	
+	"content_scripts": [
+		    {
+		      "matches": ["http://www.last.fm/*"],
+		      "js": ["jquery.js","last.fm-spotify.js"],
+					"css" : ["last.fm-spotify.css"]
+		    }
+		]
+}
