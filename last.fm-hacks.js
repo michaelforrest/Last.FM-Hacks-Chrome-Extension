@@ -2,7 +2,14 @@ String.prototype.trim = function() {
     return this.replace(/^\s+|\s+$/g, "");
 }
 
+// LFM.String.toRedStr = "x";
+// LFM.String.toBlackStr = "x";
+
 $(function() {
+
+    // simply fuck off
+    $("#colourToggle").text("x");
+    // spotify links
     $(".subjectCell").each(function(index, cell) {
         var $cell = $(cell);
         var songName = $cell.text().trim();

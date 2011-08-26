@@ -1,13 +1,13 @@
 {
-  "name": "Last.fm to Spotify Bridge",
+  "name": "Last.fm Hacks",
   "version": "1.0",
-  "description": "Add Spotify links to Last.fm",
+  "description": "Modify Last.fm with Spotify links, remove 'Simply Red' from the nav, etc..",
  	
 	"content_scripts": [
 		    {
 		      "matches": ["http://www.last.fm/*"],
-		      "js": ["jquery.js","last.fm-spotify.js"],
-					"css" : ["last.fm-spotify.css"]
+		      "js": ["jquery.js","last.fm-hacks.js"],
+					"css" : ["last.fm-hacks.css"]
 		    }
 		]
 }
